@@ -1,0 +1,10 @@
+<hr />
+<p style="text-align: center;"><strong>Conversation Between Bot & User</strong></p>
+<hr />
+<p style="text-align: center;">Date: {{today_date}}</p>
+
+{% for text in message.split(".") %}
+
+<p style="text-align: left;">{{text}}</p>
+
+{% endfor %}

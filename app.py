@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import torch
 import random
-import  json, os
+import  json, os,nltk
 import yagmail
 import jinja2
 import fcntl
@@ -10,6 +10,7 @@ from datetime import datetime
 from Model import NeuralNet, tokenize, bag_of_words
 
 # nltk.download('punkt')
+nltk.data.path.append('model/punkt')
 url = "model/intents.json"
 with open(url, 'r', encoding='utf-8') as f:
     intents = json.load(f)

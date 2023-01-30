@@ -2,6 +2,8 @@ import torch.nn as nn
 import nltk
 import numpy as np
 # nltk.download('punkt')
+# nltk.download('punkt', download_dir='model/punkt')
+# nltk.data.path.append('model/punkt')
 from nltk.stem.porter import PorterStemmer
 import json
 from torch.utils.data import Dataset

@@ -5,3 +5,4 @@ numpy==1.24.1
 pdfkit==1.0.0
 torch==1.13.1
 yagmail==0.15.293
+gunicorn== 20.1.0

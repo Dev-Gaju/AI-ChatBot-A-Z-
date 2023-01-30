@@ -10,7 +10,7 @@ from torch.utils.data import Dataset
 
 import numpy
 print (numpy.__version__)
-
+nltk.data.path.append('model/punkt')
 class NeuralNet(nn.Module):
     def __init__(self, input_size, hidden_size, num_classes):
         super(NeuralNet, self).__init__()

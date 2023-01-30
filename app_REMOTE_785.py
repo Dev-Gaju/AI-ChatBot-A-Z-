@@ -4,12 +4,12 @@ import random
 import  json, os
 import yagmail
 import jinja2
+import fcntl
 import pdfkit
 from datetime import datetime
 from Model import NeuralNet, tokenize, bag_of_words
 
-# nltk.download('punkt')
-
+nltk.download('punkt')
 url = "model/intents.json"
 with open(url, 'r', encoding='utf-8') as f:
     intents = json.load(f)

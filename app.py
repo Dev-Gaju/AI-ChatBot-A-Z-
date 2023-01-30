@@ -4,6 +4,7 @@ import random
 import  json, os
 import yagmail
 import jinja2
+import fcntl
 import pdfkit
 from datetime import datetime
 from Model import NeuralNet, tokenize, bag_of_words
@@ -109,4 +110,4 @@ def send_pdf():
 
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run()

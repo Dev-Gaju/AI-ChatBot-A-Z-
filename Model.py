@@ -6,8 +6,8 @@ from nltk.stem.porter import PorterStemmer
 import json
 from torch.utils.data import Dataset
 
-# import
-# print (gunicorn.__version__)
+import numpy
+print (numpy.__version__)
 
 class NeuralNet(nn.Module):
     def __init__(self, input_size, hidden_size, num_classes):

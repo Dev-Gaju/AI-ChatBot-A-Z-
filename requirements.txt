@@ -5,4 +5,5 @@ numpy
 pdfkit
 torch
 yagmail
+gunicorn
 

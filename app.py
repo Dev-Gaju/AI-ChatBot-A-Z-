@@ -72,7 +72,7 @@ def get_response():
         else:
             # print(replay)
             # print(question)
-            link = "https://wa.me/contanct_number"
+            link = "https://wa.me/1782057366"
             text = "there"
             html = "<a href='" + link + "' target='_blank' , onclick='myFunction()'>" + text + "</a>"
             return bot_name + ": " + "May be you should Contact..." + " " + html
@@ -96,8 +96,8 @@ def send_pdf():
 
 
     # Email and password of the sender
-    sender_email = "gmail"
-    sender_password = "password"
+    sender_email = " infinityproperty46@gmail.com"
+    sender_password = "tjhuuyzykkbvczioo"
 
     # Email of the receiver
     receiver_email = "gajuahmd@gmail.com"
